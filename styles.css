@@ -313,3 +313,62 @@ header {
     font-size: 12px;
   }
 }
+
+@media (max-width: 786px) {
+  .logo {
+    width: 30%;
+  }
+
+  .logo span {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+
+  #nav-bar a{
+    font-size: 12px;
+    padding: 20px 25px;
+  }
+
+  #home {
+    height: 70vh;
+  }
+
+  .bg {
+    width: 60%;
+  }
+
+  .bg img {
+    width: 60vh;
+    height: 60vh;
+  }
+
+  #about h1 {
+    font-size: 22px;
+  }
+
+  #about p{
+    font-size: 13px;
+  }
+
+  .about {
+    font-size: 30px;
+  }
+  
+  #video {
+    width: 98%;
+  }
+
+  #contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact div {
+    width: 90%;
+    margin-top: 40px;
+  }
+}
