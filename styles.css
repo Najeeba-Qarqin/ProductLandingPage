@@ -3,3 +3,59 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+}
+
+.logo > img {
+  height: 60px;
+  width: 60px;
+}
+
+.logo > span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: cursive;
+  color: saddlebrown;
+  margin-top: 15px;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60%;
+}
+
+#nav-bar a {
+  text-decoration-line: none;
+  color: saddlebrown;
+  font-size: large;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 17px 50px;
+  margin: 0;
+  transition: 0.6s ease;
+}
+
+#nav-bar a:hover {
+  background-color: saddlebrown;
+  color: white;
+}
