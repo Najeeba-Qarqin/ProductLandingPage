@@ -164,3 +164,18 @@ header {
   font-size: 18px;
   color: black;
 }
+
+.video {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+#video {
+  width: 70%;
+  height: auto;
+  margin: auto;
+  border-radius: 50px;
+}
