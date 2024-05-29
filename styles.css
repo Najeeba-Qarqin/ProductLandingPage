@@ -179,3 +179,62 @@ header {
   margin: auto;
   border-radius: 50px;
 }
+
+#products {
+  font-size: 40px;
+  font-weight: 600;
+  font-family: cursive;
+  margin: 20px;
+  padding: 80px;
+  text-align: center;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 21%;
+  padding: 10px;
+  border: 1px solid saddlebrown;
+  border-radius: 10px;
+}
+
+.card img {
+  width: 90%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card p {
+  width: 90%;
+  font-size: 16px;
+  font-family: cursive;
+  margin: 15px;
+}
+
+.card button {
+  background-color: saddlebrown;
+  padding: 8px;
+  border-radius: 18px;
+  border: 1px solid saddlebrown;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+}
+
+.card button:hover {
+  background-color: white;
+  color: saddlebrown;
+}
