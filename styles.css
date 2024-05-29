@@ -30,11 +30,11 @@ header {
 }
 
 .logo > span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   font-family: cursive;
   color: saddlebrown;
-  margin-top: 15px;
+  margin-top: 13px;
 }
 
 #nav-bar {
@@ -47,7 +47,7 @@ header {
 #nav-bar a {
   text-decoration-line: none;
   color: saddlebrown;
-  font-size: large;
+  font-size: 15px;
   font-family: cursive;
   font-weight: bold;
   padding: 17px 50px;
@@ -72,12 +72,12 @@ header {
 #form {
   display: flex;
   flex-direction: column;
-  width: 30%;
+  width: 40%;
   padding: 30px;
   margin: 40px;
   border: 5px solid saddlebrown;
   border-radius: 30px;
-  margin-right: 170px;
+  margin-right: 50px;
   color: saddlebrown;
 }
 
@@ -104,15 +104,15 @@ header {
 }
 
 .bg {
-  width: 70%;
-  height: 95vh;
+  width: 60%;
+  height: auto;
   margin: 0;
   padding: 0;
 }
 
 .bg img {
-  width: 95vh;
-  height: 95vh;
+  width: 80vh;
+  height: 80vh;
 }
 
 #about {
@@ -139,7 +139,7 @@ header {
 }
 
 .about {
-  font-size: 50px;
+  font-size: 35px;
   font-family: cursive;
   font-weight: bolder;
   margin: auto;
@@ -155,13 +155,14 @@ header {
 }
 
 .box div h1 {
+  font-size: 25px;
   margin: 10px;
   color: black;
 }
 
 .box div p {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   color: black;
 }
 
@@ -181,7 +182,7 @@ header {
 }
 
 #products {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 600;
   font-family: cursive;
   margin: 20px;
@@ -219,7 +220,7 @@ header {
 
 .card p {
   width: 90%;
-  font-size: 16px;
+  font-size: 14px;
   font-family: cursive;
   margin: 15px;
 }
@@ -251,6 +252,7 @@ header {
   background-color: black;
   color: white;
   font-family: cursive;
+  font-size: 14px;
 }
 
 .location {
@@ -296,4 +298,18 @@ header {
   height: 40px;
   margin: 10px;
   border-radius: 100px;
+}
+
+@media (max-width: 992px) {
+  .logo span{
+    font-size: 17px;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
 }
