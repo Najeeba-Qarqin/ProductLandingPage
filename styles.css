@@ -372,3 +372,32 @@ header {
     margin-top: 40px;
   }
 }
+
+@media (max-width: 600px) {
+  #nav-bar a {
+    padding: 20px;
+  }
+
+  #home {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form {
+    width: 80%;
+  }
+
+  .bg {
+    height: 40vh;
+  }
+
+  .bg img {
+    width: 40vh;
+    height: 40vh;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
