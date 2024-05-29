@@ -78,16 +78,29 @@ header {
   border: 5px solid saddlebrown;
   border-radius: 30px;
   margin-right: 170px;
+  color: saddlebrown;
 }
 
 #form input {
   border: none;
-  background-color: lightgray;
-  color: saddlebrown;
   font-size: 16px;
   padding: 10px;
   margin: 10px;
   border-radius: 20px;
+  border: 1px solid saddlebrown;
+}
+
+#submit {
+  background-color: saddlebrown;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+#submit:hover {
+  background-color: white;
+  color: saddlebrown;
+  border: 1px solid saddlebrown;
 }
 
 .bg {
