@@ -82,7 +82,6 @@ header {
 }
 
 #form input {
-  border: none;
   font-size: 16px;
   padding: 10px;
   margin: 10px;
@@ -154,10 +153,24 @@ header {
   font-family: cursive;
 }
 
+.location h1,
+.location h3,
+.location p {
+  margin: 10px;
+  text-align: center;
+}
+
 .box div h1 {
   font-size: 25px;
   margin: 10px;
   color: black;
+}
+
+.card p {
+  width: 90%;
+  font-size: 14px;
+  font-family: cursive;
+  margin: 15px;
 }
 
 .box div p {
@@ -218,13 +231,6 @@ header {
   border-radius: 10px;
 }
 
-.card p {
-  width: 90%;
-  font-size: 14px;
-  font-family: cursive;
-  margin: 15px;
-}
-
 .card button {
   background-color: saddlebrown;
   padding: 8px;
@@ -261,13 +267,6 @@ header {
   justify-content: start;
   align-items: center;
   width: 30%;
-}
-
-.location h1,
-.location h3,
-.location p {
-  margin: 10px;
-  text-align: center;
 }
 
 .connect {
