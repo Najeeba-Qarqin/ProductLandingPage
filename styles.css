@@ -300,7 +300,7 @@ header {
 }
 
 @media (max-width: 992px) {
-  .logo span{
+  .logo span {
     font-size: 17px;
   }
 
@@ -323,7 +323,7 @@ header {
     margin-top: 20px;
   }
 
-  #nav-bar a{
+  #nav-bar a {
     font-size: 12px;
     padding: 20px 25px;
   }
@@ -345,20 +345,19 @@ header {
     font-size: 22px;
   }
 
-  #about p{
+  #about p {
     font-size: 13px;
   }
 
   .about {
     font-size: 30px;
   }
-  
+ 
   #video {
     width: 98%;
   }
 
   #contact {
-    display: flex;
     flex-direction: column;
     width: 100%;
     display: flex;
