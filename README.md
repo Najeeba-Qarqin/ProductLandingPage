@@ -41,6 +41,8 @@ Examples:
 
 ![Demo](/media/Annotation%202024-05-29%20113528.png)
 
+![live_link](https://najeeba-qarqin.github.io/ProductLandingPage/)
+
 ## Technologies Used 🛠️
 
 
